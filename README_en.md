@@ -1,4 +1,4 @@
-<div align="center">
+# <div align="center">
 
 ![logo](./images/logo.png)
 
@@ -32,6 +32,8 @@
 </div>
 
 > **Personal fork note:** I'm using this project to study LLM training pipelines from scratch. My main interest is in the RLHF and GRPO sections. Upstream repo: [jingyaogong/minimind](https://github.com/jingyaogong/minimind).
+>
+> **Study notes:** GRPO (Group Relative Policy Optimization) is particularly interesting — it avoids the need for a separate critic/value model by comparing rewards within a group of sampled outputs. Much simpler to implement than PPO for LLMs.
 
 * This open-source project aims to train an ultra-small language model MiniMind with approximately 64M parameters entirely from scratch, using only 3 CNY in cost and 2 hours of training time.
 * The MiniMind series is extremely lightweight, with the smallest version on the main branch being approximately $\frac{1}{2700}$ the size of GPT-3, striving to enable even ordinary personal GPUs to quickly complete training and reproduction.
@@ -41,12 +43,4 @@
 * This is not only a full-stage open-source reproduction project for large language models, but also a tutorial oriented towards LLM introduction and practice.
 * We hope this project can provide a reproducible, understandable, and extensible starting point for more people, to share the joy of creation together and promote the progress of the broader AI community.
 
-> Note: This project is open-sourced under the Apache 2.0 license and is completely free; "2 hours" is estimated based on NVIDIA 3090 hardware (single GPU), and "3 CNY" refers to GPU server rental cost. See below for detailed specifications.
-
----
-
-<div align="center">
-
-![minimind-3](./images/minimind-3.gif)
-
-[🔗 Online Demo](https://www.modelscope.cn/st
+> Note: This project is open-sourced under the Apache 2.0 license and is completely free; "2 hours" is estimated based on NVIDI
