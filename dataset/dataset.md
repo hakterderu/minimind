@@ -15,3 +15,10 @@ Place the downloaded dataset file in the current directory.
 - Pretrain data: [HuggingFace - minimind-v1-small](https://huggingface.co/datasets/jingyaogong/minimind-v1-small)
 - SFT data: downloaded via the scripts in `scripts/` directory
 - Note to self: last downloaded 2024-11, stored on external SSD under `~/datasets/minimind/`
+
+## Download Checklist
+
+- [ ] pretrain_hq.jsonl
+- [ ] sft_data.jsonl
+- [ ] dpo_data.jsonl
+- [ ] verify file checksums after download
